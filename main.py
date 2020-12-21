@@ -56,7 +56,7 @@ def MailMe():
 		descript+="{}. --{}--    ->{}\n{}\n\n".format(lst[i]["no"],lst[i]["SUBJ"],lst[i]["DATE"],lst[i]["DESC"])
 	
 	sendr="gooklebot0@gmail.com"
-	passw="salikmalik941"
+	passw="gooklebotbotbot"
 	msg=f'Subject: {subject}\n\n{descript}'
 	server = smtplib.SMTP('smtp.gmail.com',587)
 	server.ehlo()
