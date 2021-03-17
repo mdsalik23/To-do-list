@@ -15,6 +15,7 @@ A simple program which checks for Email Address Validity in three simple checks
 ## How it works
 
 - Syntax check, Checks for basic email address syntax using Regex
+     - hellohello
 
 - DNS check, Checks for domain validity and retrieving record names
 
